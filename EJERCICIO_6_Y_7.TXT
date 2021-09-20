@@ -1,0 +1,37 @@
+
+ejercicio 6
+-
+a-
+
+toString: C:\Users\Fernando\fotos
+getFileName: fotos
+getName(0): Users
+getNameCount: 3
+subpath(0,2): Users\Fernando
+getParent: C:\Users\Fernando
+getRoot: C:\
+
+b-
+toString: null\fotos
+getFileName: fotos
+getName(0): null
+getNameCount: 2
+subpath(0,2): null\fotos
+getParent: null
+getRoot: null
+
+------------
+ejercicio 7
+-
+"."
+C:\Users\Fernando\.\logs\foo.log
+Formato de ruta original:C:\Users\Fernando\.\logs\foo.log
+Después de ejecutar el método normalize ():C:\Users\Fernando\logs\foo.log
+
+" .. "
+C:\Users\Fernando\..\logs\foo.log
+Formato de ruta original:C:\Users\Fernando\..\logs\foo.log
+Después de ejecutar el método normalize ():C:\Users\logs\foo.log
+
+
+para ello he utilizado el metodo normalize(), el cual elimina las redundanciancias dejando la ruta limpia;
